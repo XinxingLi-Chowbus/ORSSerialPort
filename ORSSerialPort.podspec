@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.social_media_url   = 'https://twitter.com/armadsen'
 
   s.platform     = :osx, "10.9"
-  spec.platform  = :ios, '13.0'
+  s.platform  = :ios, '13.0'
 
   s.source       = { :git => "https://github.com/armadsen/ORSSerialPort.git", :tag => s.version.to_s }
   s.source_files  = "Sources/**/*.{h,m}"
