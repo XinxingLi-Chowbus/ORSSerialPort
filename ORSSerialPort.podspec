@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ORSSerialPort"
-  s.version      = "2.2"
+  s.version      = "2.3"
   s.summary      = "Easy to use serial port library for Objective-C and Swift Mac apps."
 
   s.description  = <<-DESC
@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.social_media_url   = 'https://twitter.com/armadsen'
 
   s.platform     = :osx, "10.9"
+  spec.platform  = :ios, '13.0'
 
   s.source       = { :git => "https://github.com/armadsen/ORSSerialPort.git", :tag => s.version.to_s }
   s.source_files  = "Sources/**/*.{h,m}"
